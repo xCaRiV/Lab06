@@ -1,0 +1,9 @@
+package lab06-zad1;
+public class Prezentacja {
+    public static void main(String[] args) {
+        Cat Cat = new Cat("Kitty", "black");
+        Cat.makeSound();
+        Dog Dog = new Dog("Reksio", "brown");
+        Dog.makeSound();
+    }
+}
