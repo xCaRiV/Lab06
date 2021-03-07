@@ -1,0 +1,9 @@
+package lab06-zad1;
+public class Animal {
+    protected String Name;
+    protected String Color;
+    public Animal(String Name, String Color) {
+        this.Name = Name;
+        this.Color = Color;
+    }
+}
